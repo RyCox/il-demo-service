@@ -29,4 +29,5 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.14'
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile 'io.rest-assured:rest-assured:3.3.0'
 }
